@@ -1,4 +1,7 @@
 # price-updater-archive
+## 정보
+- 코드 작성: 트리니티벤쳐스튜디오, 2023.06 ~ 07
+- 작성 목적: 탈중앙화 암호화폐 거래소에서 사용하려는 가격정보를 불러오기 위함.
 ## 사용법
 ```
 node primary.js (OPERATION_MODE) (PRICE_AGGREGATION_MODE)
@@ -37,4 +40,4 @@ node primary.js COUNT
 - 프로그램이 완성 단계가 아니었기 때문에 여러 한계점이 있음.
   - WEIGHTED_MEAN 미구현
   - 처음에 거래소, 거래쌍 별 거래량을 불러오는 과정은 멀티프로세스로 분리되지 못해 초기 셋팅 시간이 오래 걸림.
-  - 등등..
+  - 주석 처리/ 포매팅 등등..
